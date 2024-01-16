@@ -6,6 +6,7 @@
   }
   .nav-continar {
     margin: 10px 15px;
+    padding-bottom: 10px;
   }
   ul li {
     display: none;
@@ -54,6 +55,7 @@
   .popular-tours-title {
     font-size: 2rem;
   }
+
   li > p {
     margin: 5px 20px;
   }
@@ -141,7 +143,7 @@
     width: 50%;
   }
   .video video {
-    width: 100%;
+    width: 90%;
     margin: 5px 20px;
     height: 100%;
   }
@@ -152,5 +154,26 @@
   .newsletter-input-section {
     padding: 20px 0px;
     margin: 10px;
+  }
+  .img-newsletter img {
+    width: 100%;
+    margin: 2px auto;
+    padding: 10px;
+  }
+  .offer {
+    width: 50%;
+    padding: 7px;
+    right: 25px;
+    bottom: 60px;
+  }
+  .offer h2 {
+    font-size: 1rem;
+  }
+
+  footer {
+    margin: 40px auto;
+  }
+  .footer-content {
+    padding: 10px 20px;
   }
 }

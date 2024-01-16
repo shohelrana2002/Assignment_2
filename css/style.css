@@ -470,6 +470,31 @@ input[type="email"] {
   width: 100%;
   margin: 20px auto;
 }
+.img-newsletter {
+  position: relative;
+}
+.offer {
+  border-radius: 10px;
+  background: #ff5400;
+  width: 40%;
+  padding: 20px 10px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
+  transform: rotate(-19.628deg);
+}
+.offer p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.offer h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
+  margin: 4px 0px;
+}
 
 footer {
   padding: 100px 0px;
