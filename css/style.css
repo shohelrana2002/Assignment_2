@@ -65,6 +65,7 @@ li > a {
 }
 
 .nav-continar {
+  background-position: center;
   background-image: url("../pic/Group\ 13.png");
   background-repeat: no-repeat;
   text-align: center;
