@@ -102,6 +102,7 @@ li > a {
   outline: none;
   border-radius: 7px;
   font-weight: 400;
+  border: none;
 }
 
 /* option select start  */
@@ -127,6 +128,7 @@ select {
   background: var(--btn-color);
   border-radius: 5px;
   border: none;
+  outline: none;
 }
 
 .trans-baground {
@@ -183,6 +185,7 @@ li > p {
   background: var(--btn-color);
   border-radius: 5px;
   padding: 15px 32px;
+  border: none;
 }
 #popular-tour-content {
   margin-bottom: 32px;
@@ -452,7 +455,10 @@ input[type="email"] {
   color: rgba(19, 19, 24, 0.3);
   font-weight: 400;
 }
-
+.blood {
+  color: #131318;
+  font-weight: 700;
+}
 .input-title {
   color: #131318;
   font-size: 1.5rem;
@@ -508,10 +514,17 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
+  margin: 10px auto;
 }
 
 .hr-footer {
   background: rgba(19, 19, 24, 0.1);
   width: 90%;
   margin: 40px auto;
+}
+.fa-brands {
+  color: black;
+  margin: 15px 15px;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.15);
 }

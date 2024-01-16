@@ -176,4 +176,8 @@
   .footer-content {
     padding: 10px 20px;
   }
+  .fa-brands {
+    font-size: 1rem;
+    margin: 12px 8px;
+  }
 }
