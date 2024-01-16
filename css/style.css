@@ -97,18 +97,28 @@ li > a {
   color: rgba(19, 19, 24, 0.5);
   margin-bottom: 100px;
   padding: 8px 5px;
-  margin: 5px 14px;
+  margin: 3px 14px;
   background-color: #fff;
   outline: none;
   border-radius: 7px;
   font-weight: 400;
 }
+
+/* option select start  */
 .select {
   display: flex;
+  gap: 10px;
 }
-/* .nav-continar input[type="text"] {
-  background-color: #fff;
-} */
+select {
+  color: rgba(19, 19, 24, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px 30px;
+  margin-top: 5px;
+}
+/* option select start  */
 .btn-primary {
   color: #fff;
   padding: 10px 20px;
@@ -406,6 +416,8 @@ li > p {
   position: absolute;
 }
 .video video {
+  width: 420px;
+  height: 360px;
   margin: 0px auto;
   padding: 0;
 }

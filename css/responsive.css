@@ -101,4 +101,56 @@
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
   }
+  .select {
+    flex-direction: column;
+  }
+  select {
+    width: 100%;
+  }
+  .servise-title {
+    font-size: 1.5rem;
+  }
+  .servise-content {
+    padding: 6px;
+  }
+  .serrvise-section {
+    flex-direction: column;
+    margin: 12px;
+  }
+  .center {
+    margin: 12px;
+  }
+  .discount-bg {
+    padding: 250px 0px;
+    margin: 10px;
+  }
+  .dicount-header {
+    margin: 20px auto;
+    padding: 10px 30px;
+    bottom: 5px;
+    right: 15px;
+    left: 15px;
+  }
+  .discount-time-flex,
+  .discount-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .btn {
+    margin: 1px 1px;
+    width: 50%;
+  }
+  .video video {
+    width: 100%;
+    margin: 5px 20px;
+    height: 100%;
+  }
+  .newsletter {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .newsletter-input-section {
+    padding: 20px 0px;
+    margin: 10px;
+  }
 }
