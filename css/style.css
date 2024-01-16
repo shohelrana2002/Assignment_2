@@ -418,11 +418,25 @@ li > p {
   bottom: 10px;
   position: absolute;
 }
+.video {
+  position: relative;
+}
 .video video {
   width: 420px;
   height: 360px;
   margin: 0px auto;
   padding: 0;
+}
+.video-text h3 {
+  right: 40px;
+  top: 150px;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px 40px;
+  line-height: 30px;
+  bottom: 10px;
+  text-align: center;
+  position: absolute;
 }
 /* newsletter masej input section start  */
 

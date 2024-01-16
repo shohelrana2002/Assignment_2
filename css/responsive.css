@@ -180,4 +180,10 @@
     font-size: 1rem;
     margin: 12px 8px;
   }
+  .video-text h3 {
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+  }
 }
